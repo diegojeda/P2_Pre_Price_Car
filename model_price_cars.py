@@ -11,6 +11,9 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 from sklearn.externals import joblib
+import xgboost as xgb
+from xgboost.sklearn import XGBRegressor
+
 import sys
 import os
 
